@@ -1,7 +1,7 @@
 # TwitchIDify 🎮
 ![TwitchIDify](https://github.com/user-attachments/assets/822bc92a-962e-4943-9d50-9a6dd9db4411)
 
-**TwitchIDify** adalah sebuah aplikasi berbasis web untuk mendapatkan ID pengguna dan jumlah pengikut dari username Twitch yang diinput. Cukup masukkan username, dan sistem akan mengembalikan ID pengguna serta jumlah pengikutnya. Tampilan aplikasi ini sederhana, modern, dan responsif untuk perangkat apapun.
+**TwitchIDify** adalah solusi praktis untuk mencari informasi ID dan jumlah pengikut dari akun Twitch. Dengan memasukkan username, pengguna dapat langsung memperoleh detail tersebut dalam tampilan yang bersih dan responsif di perangkat apapun.
 
 ## 🚀 Fitur
 - **Cari ID Pengguna Twitch**: Dapatkan ID pengguna hanya dengan memasukkan username.
