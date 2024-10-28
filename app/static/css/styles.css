@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-color: #f3f3f3;
+}
+
+.notification {
+    transition: opacity 0.5s ease-in-out;
+    background-color: #4b367c;
+    position: fixed;
+    top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    right: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    opacity: 0;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.notification.show {
+    opacity: 1;
+}
+
+.container {
+    background-color: #fff;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #4b367c;
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4b367c;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #36255e;
+}
+
+.result {
+    margin-top: 20px;
+    display: none;
+    text-align: left;
+}
+
+.result p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+}
+
+.result #userID, .result #followers {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: bold;
+}
